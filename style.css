@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f0f;  /* Dark background */
+    color: #e0e0e0; /* Light gray text for better readability */
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a; /* Dark background for the header */
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #808080;  /* Gray for the logo/title */
+    text-align: left;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #e0e0e0;  /* Light gray links */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #808080;  /* Gray hover effect */
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0f0f0f; /* Matches the dark tone of the image */
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 0;
+    background-color: #1a1a1a; /* Slightly lighter dark background */
+}
+
+.section h2 {
+    color: #808080;  /* Gray for section titles */
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;  /* Align heading to the left */
+}
+
+.section p, .section ul {
+    color: #e0e0e0; /* Light gray text */
+    text-align: left;  /* Align paragraphs to the left */
+    line-height: 1.6;  /* Improved line spacing */
+    margin-bottom: 20px;  /* Space between paragraphs */
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Work Image Styling: Aligning Images Left to Right */
+.work-images {
+    display: flex;  /* Flexbox layout for image alignment */
+    justify-content: flex-start;  /* Align images starting from the left */
+    gap: 20px;  /* Spacing between the images */
+}
+
+.work-image {
+    width: 250px;  /* Set width of images */
+    height: auto;  /* Maintains aspect ratio */
+    display: block;
+    margin: 0;  /* Remove margin to align images properly */
+    border-radius: 8px;  /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Soft shadow */
+}
+
+/* Social Links */
+.social a {
+    color: #808080;  /* Gray for social links */
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #e0e0e0;  /* Hover effect to turn light gray */
+}
+
+/* Footer */
+footer {
+    background-color: #0f0f0f;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+/* Link Hover Effects */
+a:hover {
+    color: #808080; /* Gray hover effect on all links */
+}
